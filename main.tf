@@ -23,10 +23,4 @@ resource "azurerm_resource_group" "rg" {
   name     = var.Resource_Group_Name
   location = "South East Asia"
 
-    tags{
-       Environment = "Terrafprm Getting Started"
-        Team        =  "DevOps"
-
-  }
-
 }
