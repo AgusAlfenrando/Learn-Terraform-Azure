@@ -22,10 +22,11 @@ subscription_id   = "fa27f845-9a36-4251-a00f-adaf9c8dab32"
 resource "azurerm_resource_group" "rg" {
   name     = var.Resource_Group_Name
   location = "South East Asia"
-tags{
-  Environment = "Terrafprm Getting Started"
-  Team        =  "DevOps"
-  
-}
+
+    tags{
+       Environment = "Terrafprm Getting Started"
+        Team        =  "DevOps"
+
+  }
 
 }
